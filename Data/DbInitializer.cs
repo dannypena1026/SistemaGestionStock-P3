@@ -7,8 +7,6 @@ public static class DbInitializer
 {
     public static async Task InitializeAsync(SistemaStockContext context)
     {
-        await context.Database.MigrateAsync();
-
         if (!await context.Roles.AnyAsync())
         {
             context.Roles.AddRange(

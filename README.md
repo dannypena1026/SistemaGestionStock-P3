@@ -116,8 +116,6 @@ Tambien puede iniciarlo desde **Servicios de Windows**.
 dotnet tool run dotnet-ef database update
 ```
 
-La aplicacion tambien aplica las migraciones pendientes al iniciar.
-
 6. Compile y ejecute:
 
 ```powershell
